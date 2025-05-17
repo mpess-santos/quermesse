@@ -6,25 +6,12 @@ from datetime import datetime
 
 # CONFIGURAÇÕES DO GOOGLE SHEETS
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1CWroXtTSvr_FRt5dDCo-ppoo05xMnCpC3BSc8iYidjo/edit?usp=drive_link"
-
 SCOPE = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
-CREDENTIALS_JSON = {
-    "type": "service_account",
-    "project_id": "quermesse-459917",
-    "private_key_id": "bc72a75d6d378d7e0e62f5fc3132478394189e51",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkq...srZQ=\n-----END PRIVATE KEY-----\n",
-    "client_email": "gerenciador-estoque-quermesse@quermesse-459917.iam.gserviceaccount.com",
-    "client_id": "111089995846289656825",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gerenciador-estoque-quermesse%40quermesse-459917.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-}
 
+# USANDO ARQUIVO DE CREDENCIAIS JSON
 @st.cache_resource
 def load_gsheet():
-    creds = Credentials.from_service_account_info(CREDENTIALS_JSON, scopes=SCOPE)
+    creds = Credentials.from_service_account_file("credenciais.json", scopes=SCOPE)
     client = gspread.authorize(creds)
     sheet = client.open_by_url(SHEET_URL)
     return sheet
@@ -126,7 +113,6 @@ elif menu == "Dar Baixa no Estoque":
 elif menu == "Relatório de Estoque":
     st.subheader("📊 Relatório Atual do Estoque")
     st.dataframe(estoque_df[['Item', 'Quantidade', 'Unidade']])
-
     st.download_button("📥 Baixar CSV", estoque_df.to_csv(index=False).encode("utf-8"), file_name="estoque_quermesse.csv", mime="text/csv")
 
     st.subheader("📜 Histórico de Movimentações")
