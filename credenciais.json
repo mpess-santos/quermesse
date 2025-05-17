@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quermesse-459917",
+  "private_key_id": "e08be1d465b2baf32e5baf1ef57d1f2f2bf604e3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDypNP6GYpApTku\nRMtMbLXXlzfVTc7a6oq8DJu3+U/DRts0cyfoRihneZ70XkEV/OQk/myzJM+g2O+4\na9f5C3Nz9tOREv/zR8j8tyE/POSxZmzKBpnQjCmuTe73cxHXtYnID2x1l3ZzXfTU\nFUvB7e2bqFuZP50gBWz/7Rpnf0Gm5cuZNhzllLdWrOm8iSf/dSBpU/njChRladtS\n7BiGc/t1jdFfEyg538Kty61YE7xEzTGxM/tH34BKLgeHwK57bfgyKsGLvXaI1std\ng+S4dT9qwFrnBlWdUx4zjk8EgPbIyoRSDOG682QLH1sz4vmFWwW2tykEEr4AkXiz\noS8c1BLRAgMBAAECggEAMviLCwOodjH/FAghiLlhbZt3gBhrNrOEV0Jyx6/YoJXW\n4Gq8XF+4hxwWVxEhrQPFzTuhC/TUpN5NZTlKUiekphyYjuYl3C4dO3Egy87334g7\nnCjM0PFQpCv84gBLJDwfaGZNC1q46D05e//JPUDE5Cj2rPefAyYAorZlEI679Nny\nN95TUatEPeyrnXZAH6yyr6SDJ3Ue40JCkNsTtoonA5nKVqmN2FuzLfj0YWU8z0uj\nzYbqKAYSuJ0dmbuGZVkZpcEPpqL5d02Tubpi/MxJwejNWj6ZeLNLVqtKJ+plRmD/\nQVz3cbp3o4Fo7MSsAyhM4e6IprqbqxJSNi+fdSpIEQKBgQD5tm/Tm3pAOe5BekHJ\nPpXsH/8STuCf/rIMBrS85/V3IW20b7NDGZK+tTA2qPPlVkNgpbsZfdu/ORdeJE5y\nrRmV/Oh9494UNOt7gL/9n4Yffnt6vLKdw/K0QBWl0z7dong6cK1JyAUdi9ZHJIk8\nyyCQB1gGLGZzDosfnZV0Co2ZnQKBgQD4wNQGT0fSE49z37CInNGyip2dlswedz8T\nDnMcvMBHHipz/URm4pLBjiDzsWsu+FkmsO/9dbyrY/0p5xRJz33s5MjGPJ9b44Kt\nIVLZaGxj4npB8B/92r0JKezKh59jA5Sf25rSpBt995hvRBzSzZlGncXYWGJVETDG\n5l7uqIxBxQKBgQDBWux4E7mzpafA96Oc6mM4NQZS7NStzo+bFE46v/mnxzClOKC7\n4j9of+/XQzenawY8/ddEQ9o11UUs1jwQO8zGANEdOaYqS1fTh7wh7LX0CQIf5aEA\n3EtAGycoAcx53WXvCnSD3udnG3JOIBJMCpUqMSWNki+6A5biYijpc4p1WQKBgCpR\nO4CbSh+N3lCbFEAZVX8nH6sodS8VoDBQu/p+jcNLeXNj+Zf7IXY2BJsQaqiB7UCs\nxxb6SY9qoi3XttbbqpN7VECNHZsXOCrVyW9c2VugsqW3AOpBpPkDHdpSeiXw/P64\n8Dy3WEn0rgT3tGOUQGgH/RlR5+CK3R5pIGs/VyT1AoGARRq2+U5nJwl2TK6fJ0Cb\n6GrX04Zl4JsnKA0nYgKoUE1AJT7lQLoAIcCz2zsJ9o6t+yqnH3Th0zXsYITnzJpw\nPoawHc86MC14VlEmd1DB0JCn0bzIC8DlZ+xDXbaCXNOCX7LRDRVpFIKRcSRc7BPt\nHXcEwC0mYFb9wpUtzIhhklw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gerenciador-estoque-quermesse@quermesse-459917.iam.gserviceaccount.com",
+  "client_id": "111089995846289656825",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gerenciador-estoque-quermesse%40quermesse-459917.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
